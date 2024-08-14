@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetica, Arial, sans-serif, serif;
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+}
+
+ul, a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bold1 {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+#main-hero {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.subtext1 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#box-head {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+}
