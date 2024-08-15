@@ -10,7 +10,7 @@ ul {
     text-decoration: none;
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 3vw;
     margin-right: 10vw;
 }
 
@@ -32,6 +32,7 @@ ul {
     padding-left: 10vw;
     padding-right: 10vw;
     gap: 20px;
+    align-items: center;
 }
 
 .bold1 {
@@ -41,17 +42,18 @@ ul {
 }
 
 .top-left {
-    flex-basis: 500px;
+    flex-basis: 400px;
     display: flex;
     flex-direction: column;
     gap: 15px;
+    flex-grow: 1;
 }
 
 .top-right {  
     display: flex;
     align-items: center;
-    flex-basis: 260px;
-    flex-grow: 1;
+    flex-basis: 450px;
+    flex-grow: 3;
 }
 
 .b1 {
@@ -64,6 +66,7 @@ ul {
     padding-right: 20px;
     border-color: #3882f6;
     transition-duration: 0.2s;
+    font-weight: bold;
 }
 
 .b1:hover {
@@ -101,6 +104,7 @@ ul {
     font-size: 36px;
     font-weight: 1000;
     color: #1f2937;
+    text-align: center;
 }
 
 .mid1 {
@@ -112,22 +116,26 @@ ul {
     padding-left: 10vw;
     padding-right: 10vw;
     margin-bottom: 15vh;
-
 }
 
 .img-boxes {
     display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-content: center;
+    justify-content: center;
 }
 
 .box {
+    gap: 5px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    gap: 30px;
     height: 200px;
     width: 200px;
     margin-left: 30px;
     margin-right: 30px;
+    margin-bottom: 40px;
 }
 
 .box img {
@@ -135,9 +143,9 @@ ul {
     height: 200px;
     width: 200px;
     background-color: #3882f6;
+    border-color: #3882f6;
     padding: 4px;
     border-radius: 8px;
-
 }
 
 .quote-text {
@@ -145,6 +153,72 @@ ul {
     font-style: italic;
     font-weight: light;
     color: #1f2937;
+    margin: 0 10vw 0 10vw;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 10vw 10vh 10vw;
+    gap: 20px;
+}
+
+.author {   
+    align-self: flex-end;
+    margin-right: 10vw;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta {
+    margin: 10vh 10vw 10vh 10vw;
+    padding: 50px 10vw 50px 10vw;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cta1 {
+    flex-basis: 800;
+    flex-grow: 3;
+}
+
+.bold2 {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.sub-hero3 {
+    color: white;
+    font-size: 24px;
+
+}
+
+.b2 {
+    border-radius: 8px;
+    background: white;
+    color: #3882f6;
+    padding: 20px;
+    font-size: 24px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-color: white;
+    transition-duration: 0.2s;
+    border-width: 5px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+.b2:hover {
+    background-color: #3882f6;
+    color: white;
 }
 
 .footer {
