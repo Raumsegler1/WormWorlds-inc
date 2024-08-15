@@ -146,6 +146,7 @@ ul {
     border-color: #3882f6;
     padding: 4px;
     border-radius: 8px;
+    flex-shrink: 0;
 }
 
 .quote-text {
