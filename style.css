@@ -11,7 +11,7 @@ ul {
     list-style: none;
     display: flex;
     gap: 10px;
-    margin-right: 5vw;
+    margin-right: 10vw;
 }
 
 .header {
@@ -28,27 +28,53 @@ ul {
     display: flex;
     padding-bottom: 10vh;
     padding-top: 10vh;
-    gap: 100px;
+    flex-wrap: wrap;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    gap: 20px;
 }
 
 .bold1 {
     color: #F9FAF8;
     font-size: 24px;
-    margin-left: 15vw;
+    margin-left: 10vw;
 }
 
 .top-left {
-    margin-left: 15vw;
+    flex-basis: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-.top-right {
-    margin-right: 5vw;   
+.top-right {  
     display: flex;
+    align-items: center;
+    flex-basis: 260px;
+    flex-grow: 1;
+}
+
+.b1 {
+    border-radius: 8px;
+    background: #3882f6;
+    color: white;
+    border: 2;
+    padding: 10px;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color: #3882f6;
+    transition-duration: 0.2s;
+}
+
+.b1:hover {
+    background-color: white;
+    color: #3882f6;
 }
 
 .top-right img {
-    flex-basis: 500px;
-    flex-shrink: 1;
+    max-width: 100%;
+
 }
 
 #main-hero {
